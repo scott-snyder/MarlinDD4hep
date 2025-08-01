@@ -4,6 +4,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10 FATAL_ERROR)
 ########################################################
 
+cmake_policy(SET CMP0167 NEW)
 
 # project name
 PROJECT( MarlinDD4hep )
@@ -12,6 +13,8 @@ PROJECT( MarlinDD4hep )
 SET( ${PROJECT_NAME}_VERSION_MAJOR 0 )
 SET( ${PROJECT_NAME}_VERSION_MINOR 6 )
 SET( ${PROJECT_NAME}_VERSION_PATCH 3 )
+
+cmake_policy(SET CMP0074 NEW)
 
 
 ### DEPENDENCIES ############################################################

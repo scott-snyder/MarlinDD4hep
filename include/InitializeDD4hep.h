@@ -31,13 +31,13 @@ public:
   virtual void init() ;
   
   /// do nothing
-  virtual void processRunHeader( LCRunHeader* run ) ;
+  virtual void processRunHeader( lcio::LCRunHeader* run ) ;
   
   /// do nothing
-  virtual void processEvent( LCEvent * evt ) ; 
+  virtual void processEvent( lcio::LCEvent * evt ) ; 
   
   /// do nothing
-  virtual void check( LCEvent * evt ) ; 
+  virtual void check( lcio::LCEvent * evt ) ; 
   
   /// do nothing
   virtual void end() ;

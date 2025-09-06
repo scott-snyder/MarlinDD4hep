@@ -6,6 +6,7 @@
 #include "UTIL/LCTrackerConf.h"
 
 using namespace marlin ;
+using namespace lcio ;
 
 InitializeDD4hep aInitializeDD4hep ;
 

@@ -14,6 +14,8 @@ SET( ${PROJECT_NAME}_VERSION_MAJOR 0 )
 SET( ${PROJECT_NAME}_VERSION_MINOR 6 )
 SET( ${PROJECT_NAME}_VERSION_PATCH 2 )
 
+cmake_policy(SET CMP0074 NEW)
+
 
 ### DEPENDENCIES ############################################################
 
